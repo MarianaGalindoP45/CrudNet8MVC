@@ -11,7 +11,7 @@ namespace CrudNet8MVC.Datos
         }
  
         //Modelos de las tablas de la base de datos
-        public DbSet<Contacto> MContacto { get; set; }
+        public DbSet<Contacto> Contacto { get; set; }
 
     }
 }

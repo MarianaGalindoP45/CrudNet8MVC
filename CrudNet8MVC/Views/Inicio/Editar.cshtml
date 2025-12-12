@@ -1,0 +1,58 @@
+﻿@model CrudNet8MVC.Models.Contacto
+@{
+    ViewData["Title"] = "Editar Contacto";
+}
+
+<h1 class="text-center">Editar Contacto</h1>
+
+<div class="row">
+    <div class="offset-12">
+        <div class="card border">
+            <div class="card-header bg-dark">
+                <h3 class="text-white"><strong>Editar Contacto</strong></h3>
+            </div>
+            <div class="card-body">
+                <form asp-action="Editar">
+                    @*Id del usuario*@
+                    <input type="hidden" asp-for="Id" />
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                    <div class="form-group">
+                        <label asp-for="Nombre" class="control-lablel"></label>
+                        <input asp-for="Nombre" class="form-control" placeholder="Nombre" />
+                        <span asp-validation-for="Nombre" class="text-danger"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label asp-for="Apellido" class="control-lablel"></label>
+                        <input asp-for="Apellido" class="form-control" placeholder="Apellido" />
+                        <span asp-validation-for="Apellido" class="text-danger"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label asp-for="Telefono" class="control-lablel"></label>
+                        <input asp-for="Telefono" class="form-control" placeholder="Telefono celular" />
+                        <span asp-validation-for="Telefono" class="text-danger"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label asp-for="Correo" class="control-lablel"></label>
+                        <input asp-for="Correo" class="form-control" placeholder="correo electrónico " />
+                        <span asp-validation-for="Correo" class="text-danger"></span>
+                    </div>
+
+                    <div class="from-group mt-3">
+                        <button type="submit" class="btn btn-primary d-block mx-auto">
+                            <i class="fa fa-plus" aria-hidden="true"></i> Editar Contacto
+                        </button>
+                    </div>
+                </form>
+
+                <a asp-controller="Inicio" asp-action="Index">
+                    <i class="fa fa-arrow-left" aria-hidden="true"></i> Volver
+                </a>
+            </div>
+        </div>
+    </div>
+
+</div>
+
