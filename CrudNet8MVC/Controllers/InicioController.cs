@@ -50,40 +50,8 @@ namespace CrudNet8MVC.Controllers
                 await _contexto.SaveChangesAsync(); // Guardar en la base de datos
                 return RedirectToAction(nameof(Index)); // Redirigir a la acción Index
             }
-            return View();
-        }
-
-        //Controller de Editar
-        [HttpGet]
-        public IActionResult Editar(int? id)
-        {
-            if (id == null)
-            {
-                return NotFound();
-            }
-
-            var contacto = _contexto.Contacto.Find(id);
-            if (contacto == null)
-            {
-                return NotFound();
-            } 
-
-            return View(contacto);
-        }
-
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Editar(Contacto contacto)
-        {
-            if (ModelState.IsValid)
-            {
-                contacto.FechaCreacion = DateTime.Now;
-
-                _contexto.Update(contacto);
-                await _contexto.SaveChangesAsync(); // Guardar en la base de datos
-                return RedirectToAction(nameof(Index)); // Redirigir a la acción Index
-            }
-            return View();
+            
+                return View();
         }
 
         //Ver detalle del contacto
