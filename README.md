@@ -1,4 +1,4 @@
-#CRUD de administración de usuarios#
+CRUD de administración de usuarios
 
 Aplicación web desarrollada en .NET y C# que permite la gestión de usuarios mediante operaciones CRUD (Create, Read, Update, Delete), utilizando arquitectura MVC y conexión a base de datos SQL Server mediante Entity Framework.
 
@@ -13,7 +13,7 @@ Tecnologías:
 -HTML, CSS
 -Git
 
-#Funcionalidades#
+Funcionalidades
 
 -Listado de usuarios en tabla dinámica
 -Creación de nuevos usuarios
@@ -23,7 +23,7 @@ Tecnologías:
 -Conexión a base de datos SQL Server mediante Entity Framework
 -Operaciones CRUD completas
 
-#Mi participación#
+Mi participación
 Desarrollo completo de la aplicación, incluyendo:
 
 -Implementación de arquitectura MVC
@@ -33,10 +33,10 @@ Desarrollo completo de la aplicación, incluyendo:
 -Desarrollo de interfaz web
 -Pruebas funcionales
 
-#Cómo ejecutar el proyecto#
+Cómo ejecutar el proyecto
 
 1. Clonar el repositorio
-    git clone https://github.com/TU-USUARIO/TU-REPO.git
+    git clone https://github.com/MarianaGalindoP45/CrudNet8MVC
 
 2. Abrir el proyecto en Visual Studio
 
@@ -46,7 +46,7 @@ Desarrollo completo de la aplicación, incluyendo:
 4. Ejecutar el proyecto
 
 
-#Interfaz del Sistema#
+Interfaz del Sistema
 
 Lista de usuarios
 
@@ -63,7 +63,7 @@ Ver:
 Eliminar:
 <img width="1919" height="863" alt="image" src="https://github.com/user-attachments/assets/bf5c04f8-88c3-44d1-8a62-399812e2e0c2" />
 
-#Características técnicas#
+Características técnicas
 
 -Arquitectura MVC
 -ORM Entity Framework
