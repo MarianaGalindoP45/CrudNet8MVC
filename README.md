@@ -5,37 +5,37 @@ Aplicación web desarrollada en .NET y C# que permite la gestión de usuarios me
 El sistema facilita la visualización, creación, edición y eliminación de usuarios, asegurando integridad de datos mediante validaciones en formularios.
 Tecnologías:
 
--.NET
--C#
--ASP.NET MVC
--Entity Framework
--SQL Server
--HTML, CSS
--Git
+- .NET
+- C#
+- ASP.NET MVC
+- Entity Framework
+- SQL Server
+- HTML, CSS
+- Git
 
 ---
 
 # Funcionalidades
 
--Listado de usuarios en tabla dinámica
--Creación de nuevos usuarios
--Edición de información existente
--Eliminación de registros
--Validación de formularios
--Conexión a base de datos SQL Server mediante Entity Framework
--Operaciones CRUD completas
+- Listado de usuarios en tabla dinámica
+- Creación de nuevos usuarios
+- Edición de información existente
+- Eliminación de registros
+- Validación de formularios
+- Conexión a base de datos SQL Server mediante Entity Framework
+- Operaciones CRUD completas
 
 ---
 
 # Mi participación
 Desarrollo completo de la aplicación, incluyendo:
 
--Implementación de arquitectura MVC
--Desarrollo de operaciones CRUD
--Conexión y manejo de base de datos con Entity Framework
--Implementación de validaciones en formularios
--Desarrollo de interfaz web
--Pruebas funcionales
+- Implementación de arquitectura MVC
+- Desarrollo de operaciones CRUD
+- Conexión y manejo de base de datos con Entity Framework
+- Implementación de validaciones en formularios
+- Desarrollo de interfaz web
+- Pruebas funcionales
 
 # Cómo ejecutar el proyecto
 
@@ -72,8 +72,8 @@ Eliminar:
 
 # Características técnicas
 
--Arquitectura MVC
--ORM Entity Framework
--Validaciones en formularios
--Conexión a SQL Server
--Control de versiones con Git
+- Arquitectura MVC
+- ORM Entity Framework
+- Validaciones en formularios
+- Conexión a SQL Server
+- Control de versiones con Git
